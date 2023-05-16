@@ -1,0 +1,167 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+
+}
+
+#page1{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(gym3.jpg);
+    background-position: center;
+    background-size: contain;
+    flex-direction: column;
+    background-attachment: fixed;
+    color:white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+
+
+#page2{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inner-div{
+    text-align: center;
+}
+
+#inner-div{
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+#p2{
+    font-size: 25px;
+    margin-top: -20px;
+}
+#p1{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#heading{
+    text-align: center;
+    color: rgb(7, 158, 239);
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#inner-div2{
+
+}
+
+figcaption{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#page3{
+    height:100%;
+    width:100%;
+
+}
+
+#table{
+    border:1px solid black;
+}
+
+#table2 td{
+     border:1px solid black;
+}
+
+#page3 h2{
+    text-align: center;
+}
+
+#p11{
+    text-align: center;
+}
+
+#p12{
+    text-align: center;
+    margin-top: -10px;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#form1 input{
+    margin-top: 20px;
+}
+
+#inner-cont2{
+    font-size: 20px;
+}
+
+#navigation{
+    background-color:rgb(0, 187, 244);
+    width: 100%;
+    height:60px;
+    position: fixed;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#content{
+    height: 90%;
+    width: 100%;
+}
+
+ul{
+    display: inline;
+}
+
+
+#navigation a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#page4 table {
+    border:1px solid black;
+    border-collapse: collapse;
+   margin-left: 30%;
+}
+
+#page4 td{
+    border:1px solid black;
+}
+
+#page4 #heading-row td{
+    background-color:rgb(0, 187, 244);
+    color:white;
+}
+
