@@ -8,13 +8,10 @@
 <body>
     <nav id="navigation">
        <img src="images/logo2.png" height="100%" >
-     
         <a href="#page2"> Workout plan</a>
         <a href="#page3"> Calorie Caculator </a>
         <a href="#page4"> Meal Plan </a>
         <a href="#footer1"> About Us</a>
-     
-      
        </nav>
 
 
@@ -123,10 +120,10 @@
     
               <label> GENDER:</label><br><br>
             
-              <input type="radio" value="male" id="male">
+              <input type="radio" value="male" id="male" name="gender" checked>
               <label for="male">MALE:</label><br><br>
            
-              <input type="radio" value="female" id="female">
+              <input type="radio" value="female" name="gender" id="female">
               <label for="female">FEMALE:</label><br><br>
               <label for="height">HEIGHT:</label>
               <input type="number" id="height" >
@@ -135,11 +132,15 @@
               <input type="number" id="weight" ><br><br>
               <label for="activity"> ACTVITY: </label>
               <select id="activity">
-                <option> Moderate </option>
-                <option> Activity </option>
-                <option> Highly Active </option>
+                <option value="1.85"> Moderate </option>
+                <option value="2.2"> Activity </option>
+                <option value="2.4"> Highly Active </option>
               </select><br><br>
-              <button> CALCULATE </button>
+              <button id="buttoncalculate"> CALCULATE </button>
+              <div id="calorieView" >
+                    <h2 id="calorieView2"> 2500 </h2>   
+              </div>
+          
             </fieldset>
         </form>
 
@@ -347,6 +348,6 @@ Walnuts (165)<br>
 
 
    </footer>
-    
+   <script type="text/javascript" src="script.js">  </script>
 </body>
 </html>

@@ -28,7 +28,15 @@ body {
     
 }
 
+#inner-div{
+    text-align: center;
+}
 
+#inner-div{
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
 
 #page2{
     height:100%;
@@ -39,15 +47,7 @@ body {
     flex-direction: column;
 }
 
-#inner-div{
-    text-align: center;
-}
 
-#inner-div{
-    font-weight: 900;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-}
 
 #p2{
     font-size: 25px;
@@ -94,7 +94,6 @@ figcaption{
 #table2 #tablerow2{
     background-color:rgb(0, 187, 244);
     color:white;
-
 }
 
 #page3{
@@ -226,7 +225,6 @@ footer{
 .horizontal-list li a {
     color:#a3de83;
     text-decoration: none;
-    border-radius: 50%;
 }
 
 .social-icons li a i{
@@ -260,3 +258,9 @@ footer{
 
 
 
+#calorieView{
+    height: 40px;
+    width:200px;
+    background-color: white;
+    margin-top: 40px;
+}
